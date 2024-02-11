@@ -39,3 +39,18 @@ const transformedArray = array2nd.map((element) => {
 });
 
 console.log(transformedArray); // [2, 4, 6, 8, 10]
+
+console.log(`------ Splitting a string into an array-------`); // 3. filter()
+
+const word = "A time for reflection";
+//const wordNoSpaces = word.replace(/\s/g, "");
+const letters = [...word];
+
+const letterObject = letters.map((letter) => {
+  return { char: letter };
+});
+
+console.log(letters);
+console.log(letterObject);
+
+// and if we wanted to convert the string into an array of individual letter objects here is the code:

@@ -25,3 +25,11 @@ The for of loop goes through each item in the array and executes the code inside
 ## map() through an array
 
 This loops through the array and applies a call back function to each element. The output is a new array. Map() creates a new array.
+
+## take a string and create an array of letters
+
+I want to take a string variable and convert it into an array of letters
+
+(sunday afternoon queries, where I don't know enough)
+
+## understand .filter().map() and .join()
